@@ -26,11 +26,12 @@ ul {
   padding: 0;
 }
 
-h1 { 
+h1.hone { 
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
 	padding: 50px 10px 5px 10px;
 	font-size: 3em;
+	text-align: center;
 }
 
 img.a {

@@ -20,7 +20,7 @@ a.nav:hover{
   color: black;
 }
 
-ul {
+ul.one {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -33,22 +33,31 @@ h1 {
 	font-size: 3em;
 }
 
-img.a {
-            display: block;  
-			width:50%;
-			height:50%; 
-			margin-left:auto; 
-			margin-right:auto;
-        }
-		
-img.b {
-            display: block;  
-			width:50%;
-			height:50%; 
-			margin-left:auto; 
-			margin-right:auto;
-			border-radius: 50%;
-        }
+ul.two {
+  list-style-type: square;
+}
+
+h2 { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 2em;
+}
+
+h3 { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 1.3em;
+}
+
+h4 { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 5px 5px 5px 10px;
+	font-size: 1em;
+}
+
 
 span {
 	color:cyan;
