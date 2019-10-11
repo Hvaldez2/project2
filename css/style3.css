@@ -31,10 +31,12 @@ h1 {
 	color: navy;
 	padding: 50px 10px 5px 10px;
 	font-size: 3em;
+	text-align: center;
 }
 
 ul.two {
   list-style-type: square;
+  font-size: 1.5em;
 }
 
 h2 { 
@@ -42,6 +44,7 @@ h2 {
 	color: navy;
 	padding: 10px 10px 5px 10px;
 	font-size: 2em;
+	text-align: center;
 }
 
 h3 { 
@@ -49,6 +52,7 @@ h3 {
 	color: navy;
 	padding: 10px 10px 5px 10px;
 	font-size: 1.3em;
+	
 }
 
 h4 { 
@@ -56,12 +60,13 @@ h4 {
 	color: navy;
 	padding: 5px 5px 5px 10px;
 	font-size: 1em;
+	font-style: italic;
 }
 
 
 span {
 	color:cyan;
-	font-weight: 420;
+	font-weight: 400;
 	font-style: italic;
 }
 
