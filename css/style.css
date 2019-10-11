@@ -1,0 +1,27 @@
+
+
+body { font-family: Courier, monospace; }
+
+h1 { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 50px 10px 5px 10px;
+	font-size: 3em;
+}
+
+img.a {
+            float: left;
+            margin-bottom: 15px;
+            margin-right: 15px;
+        }
+
+span {
+	color:cyan;
+	font-weight: 420;
+	font-style: italic;
+}
+
+p {
+	font-family: 'Unica One', cursive;
+	font-size: 1.5em;
+}
