@@ -1,18 +1,19 @@
 
-body { font-family: Courier, monospace; }
+body { font-family: Courier, monospace;
+	    background-color:  #62c0b5;
+}
 
 nav {
-	overflow: hidden;
-	background-color: #333;
+	text-align:center;
+	font-size: 50px;
+	background-color: #1be7fe;
 	
+
 }
 
 a.nav {
-	float: left;color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+	color: white;
+padding:0 30px; 
 }
 
 a.nav:hover{
@@ -24,11 +25,17 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  color:white;
+}
+
+li{
+	display:inline;
 }
 
 h1 { 
+	text-align:center;
 	font-family: 'Source Sans Pro', sans-serif;
-	color: navy;
+	color: white;
 	padding: 50px 10px 5px 10px;
 	font-size: 3em;
 }
@@ -51,12 +58,21 @@ img.b {
         }
 
 span {
-	color:cyan;
+	color:white;
 	font-weight: 400;
 	font-style: italic;
 }
 
 p {
-	font-family: 'Unica One', cursive;
+	padding-left: 100px;
+	padding-right: 100px;
+	font-family: 'Play', sans-serif;
+
 	font-size: 1.5em;
+}
+
+iframe{
+	
+	display:block; margin:0 auto;
+	
 }
