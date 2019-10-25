@@ -1,34 +1,33 @@
-
-body { font-family: Courier, monospace; }
-
+body { font-family: Courier, monospace;
+background-image: linear-gradient(#ccffff, #1be7fe);
+}
 nav {
-	overflow: hidden;
-	background-color: #333;
-	
+text-align:center;
+font-size: 50px;
+  background-color:#ccffff;
+;
 }
-
 a.nav {
-	float: left;color: #f2f2f2;
-	text-align: center;
-	padding: 14px 16px;
-	text-decoration: none;
-	font-size: 17px;
+color: black;
+padding:0 30px; 
 }
-
 a.nav:hover{
-  background-color: #ddd;
-  color: black;
+background-color: #ddd;
+color: black;
 }
-
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+list-style-type: none;
+margin: 0;
+padding: 0;
+color:white;
+}
+li{
+display:inline;
 }
 
 h1 { 
 	font-family: 'Source Sans Pro', sans-serif;
-	color: navy;
+	color: white;
 	padding: 50px 10px 5px 10px;
 	font-size: 3em;
 	text-align: center;
@@ -72,8 +71,10 @@ span {
 }
 
 p {
-	font-family: 'Unica One', cursive;
+	font-family: 'Play', sans-serif;
 	font-size: 1.75em;
+	padding-left: 100px;
+padding-right: 100px;
 }
 
 
