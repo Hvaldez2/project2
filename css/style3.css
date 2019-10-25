@@ -4,12 +4,11 @@ background-image: linear-gradient(#ccffff, #1be7fe);
 nav {
 text-align:center;
 font-size: 50px;
-  background-color:#ccffff;
+  bsackground-color:#ccffff;
 ;
 }
 a.nav {
 color: black;
-padding:0 30px; 
 }
 a.nav:hover{
 background-color: #ddd;
