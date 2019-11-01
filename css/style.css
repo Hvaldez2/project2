@@ -35,7 +35,7 @@ color: white;
 padding: 50px 10px 5px 10px;
 font-size: 3em;
 }
-img.a {
+img.indeximage {
 display: block;  
 width:50%;
 height:50%; 
@@ -43,7 +43,7 @@ margin-left:auto;
 margin-right:auto;
 padding-top:30px;
 }
-img.b {
+img.indeximageround {
 display: block;  
 width:50%;
 height:50%; 
@@ -144,3 +144,65 @@ padding-right: 100px;
 }
 
 /* resume page css */
+
+
+#two {
+  font-size: 12pt;
+  color:black;
+
+}
+
+#one li{
+	display:inline;
+	
+
+}
+
+#two li{
+	font-family: 'Play', sans-serif;
+	font-size: 12pt;
+	padding-left: 100px;
+padding-right: 100px;
+	display:block;
+	list-style-type: square;
+}
+
+h1.h1resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 50px 10px 5px 10px;
+	font-size: 20pt;
+	text-align: center;
+}
+h2.h2resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 16pt;
+	text-align: center;
+}
+
+h3.h3resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 10px 10px 5px 10px;
+	font-size: 14pt;
+	
+}
+
+h4.h4resume { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: navy;
+	padding: 5px 5px 5px 10px;
+	font-size: 12pt;
+	font-style: italic;
+}
+
+
+
+p.presume {
+	font-family: 'Play', sans-serif;
+	font-size: 12pt;
+	padding-left: 100px;
+padding-right: 100px;
+}
