@@ -16,7 +16,6 @@ background-color: #ddd;
 color: black;
 }
 
-/* Index Page*/
 ul {
 list-style-type: none;
 margin: 0;
@@ -26,6 +25,9 @@ color:white;
 li{
 display:inline;
 }
+
+
+/* Index Page*/
 h1 { 
 text-align:center;
 font-family: 'Source Sans Pro', sans-serif;
@@ -66,5 +68,79 @@ display:block; margin:0 auto;
 
 /* Blog css*/
 
+h1.h1blog { 
+	font-family: 'Source Sans Pro', sans-serif;
+	color: white;
+	padding: 50px 10px 5px 10px;
+	font-size: 3em;
+	text-align: center;
+}
+
+h2.h2blog{
+	font-family: 'Source Sans Pro', sans-serif;
+	color: black;
+	padding: 5px 5px 5px 5px;
+	font-size: 1.8em;
+	text-align: center;
+}
+
+
+h3.h3blog{
+	font-style:italic;
+	padding-left: 10%
+}
+
+img.blogimage {
+            display: block;  
+			width:50%;
+			height:50%; 
+			margin-left:auto; 
+			margin-right:auto;
+        }
+		
+
+
+
+p.pblog {
+	font-family: 'Play', sans-serif;
+	font-size: 1.75em;
+	padding-left: 100px;
+padding-right: 100px;
+}
+
+
+.container {
+  position: relative;
+  width: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
 /* resume page css */

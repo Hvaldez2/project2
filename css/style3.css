@@ -27,13 +27,13 @@ h1 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
 	padding: 50px 10px 5px 10px;
-	font-size: 3em;
+	font-size: 20pt;
 	text-align: center;
 }
 
 #two {
   list-style-type: square;
-  font-size: 1.5em;
+  font-size: 12pt;
   
 }
 
@@ -45,7 +45,7 @@ h1 {
 
 #two li{
 	font-family: 'Play', sans-serif;
-	font-size: 1em;
+	font-size: 12pt;
 	padding-left: 100px;
 padding-right: 100px;
 }
@@ -54,7 +54,7 @@ h2 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
 	padding: 10px 10px 5px 10px;
-	font-size: 2em;
+	font-size: 16pt;
 	text-align: center;
 }
 
@@ -62,7 +62,7 @@ h3 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
 	padding: 10px 10px 5px 10px;
-	font-size: 1.3em;
+	font-size: 14pt;
 	
 }
 
@@ -70,20 +70,15 @@ h4 {
 	font-family: 'Source Sans Pro', sans-serif;
 	color: navy;
 	padding: 5px 5px 5px 10px;
-	font-size: 1em;
+	font-size: 12pt;
 	font-style: italic;
 }
 
 
-span {
-	color:cyan;
-	font-weight: 400;
-	font-style: italic;
-}
 
 p {
 	font-family: 'Play', sans-serif;
-	font-size: 1.75em;
+	font-size: 12pt;
 	padding-left: 100px;
 padding-right: 100px;
 }

@@ -21,11 +21,13 @@ margin: 0;
 padding: 0;
 color:white;
 }
+
+
 li{
 display:inline;
 }
 
-h1 { 
+h1.h1blog { 
 	font-family: 'Source Sans Pro', sans-serif;
 	color: white;
 	padding: 50px 10px 5px 10px;
@@ -33,7 +35,7 @@ h1 {
 	text-align: center;
 }
 
-h2{
+h2.h2blog{
 	font-family: 'Source Sans Pro', sans-serif;
 	color: black;
 	padding: 5px 5px 5px 5px;
@@ -42,12 +44,12 @@ h2{
 }
 
 
-h3{
+h3.h3blog{
 	font-style:italic;
 	padding-left: 10%
 }
 
-img.a {
+img.blogimage {
             display: block;  
 			width:50%;
 			height:50%; 
@@ -55,22 +57,10 @@ img.a {
 			margin-right:auto;
         }
 		
-img.b {
-            display: block;  
-			width:50%;
-			height:50%; 
-			margin-left:auto; 
-			margin-right:auto;
-			border-radius: 50%;
-        }
 
-span {
-	color:cyan;
-	font-weight: 400;
-	font-style: italic;
-}
 
-p {
+
+p.pblog {
 	font-family: 'Play', sans-serif;
 	font-size: 1.75em;
 	padding-left: 100px;
